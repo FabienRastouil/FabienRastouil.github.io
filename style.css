@@ -1,0 +1,351 @@
+* {
+	font-family: HelveticaNeue-Light;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+}
+.landing {
+	height:100%;
+	background-image: url(images/acceuil2.jpg);
+	background-size: cover;
+	margin:0px;
+	padding: 0px;
+	overflow: hidden;
+}
+#space {
+	height:8em;
+}
+.textfont1 {
+	position: absolute;
+	width: 80%;
+	margin: 10%;
+	font-family: HelveticaNeue-UltraLight;
+	margin-top:-21px;
+	text-align: center;
+	color:#2B2C2C;
+	font-size:1.5em;
+	z-index: 1;
+}
+.textfont1 h1 {
+		padding-top: 7.5em;
+		color:#1F1F1F;
+}
+.textfont1 li {
+	font-family: HelveticaNeue-UltraLight;
+	padding: 0em 2em 0em 2em;
+	display: inline-block;
+	color:grey;
+	font-size: 0.7em;
+}
+.textfont1 li:hover {
+	color:white;
+}
+#superh {
+	opacity: 0.2;
+	overflow: hidden;
+	z-index: 2;
+}
+#super { 
+	width: 61em;
+	margin-left: 4em;
+	margin-right: auto;
+	margin-top: 2em;
+	left:0;
+	right:0;
+}
+/* ---------------------------------------------*/
+/* -----------------PROFILE PAGE--------------- */
+/* ---------------------------------------------*/
+
+.profile { 
+	height:100%;
+	background-image: url(images/brickwall.png);
+	background-repeat: repeat;
+	margin:0px;
+	padding: 0px;
+	overflow: hidden;
+}
+h2 { 
+	display: block;
+	text-align: center;
+	font-size: 3em;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding-top: 0px;
+	margin-top: 0px;
+	font-family: Lobster;
+}
+.conteneur { 
+	margin: 10% 10%;
+	width:80%;
+}
+#textp {
+	float: left;
+	width: 70%;
+	background-color: rgba(255,204,102,0.2);
+	border-left: 0.4em solid rgba(255,204,102,0.9);
+	padding: 2em;
+	text-align: justify;
+	color:rgba(0,0,0,0.8);
+	margin-bottom: 2em;
+}
+.conteneur img {
+	width:15em;
+	height:15em;
+	border-radius: 100%;
+	border: 0.2em solid rgba(0,0,0,0.1);
+	opacity: 0.7;
+	margin-top:-1em;
+}
+#imagep {float:left;
+	margin-left: 1em;
+	width: 10%
+}
+#superp {
+	position:absolute; 
+	width: 17em;
+	margin-top: 20%;
+	margin: 20% 40%;
+	opacity: 0.4;
+}
+
+/* ---------------------------------------------*/
+/* -----------------SKILLS PAGE ----------------*/
+/* ---------------------------------------------*/
+
+.skills { 
+	background-image: url(images/coffee.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+.listes{ 
+	display: inline-block;
+	background-color: rgba(0,0,0,0.6);
+	border-radius: 100%;
+	border: 3px solid rgba(250,250,250,0.2);
+	margin:3%;
+	text-align: center;
+	vertical-align: middle;
+	height: 9em;
+	width: 9em;
+	line-height: 9em;
+	color: rgb(255,255,240);
+	font-family: lobster;
+	font-size: 1.4em;
+}
+.conteneur2 { 
+	margin: 6% 5%;
+}
+
+
+/* ---------------------------------------------*/
+/* --------------EXPERIENCE PAGE----------------*/
+/* ---------------------------------------------*/
+
+.experience { 
+	background-image: url(images/experience.png);
+	color: rgb(47,79,79);
+}
+#bar {
+	height:105%; 
+	position:absolute; 
+	margin-left:23%; 
+}
+.experience table { 
+	position: relative;
+	margin: 0% 9%; 
+	padding:1em; 
+}
+.experience table li {
+	font-size: 0.8em;
+}
+
+#col1 {
+	width:15.2%;
+}
+#col2 {
+	width:3%;
+}
+#col3 {
+	width:74%;
+}
+#col4 {
+	width:7%;
+}
+.period {
+	text-align:right;
+	font-family: lobster;
+	color:rgba(49,49,49,0.8);
+	padding-top: 0.35em;
+	vertical-align: top;
+}
+.job {
+	font-family: lobster;
+	font-size: 1.3em;
+	color: rgba(49,49,49,0.8);
+}
+.logo1 {
+	width:5em;
+	border-radius: 100% ;
+	border: 2px solid rgba(145,80,37,0.4);
+    filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+    filter: gray; /* IE5+ */
+    -webkit-filter: sepia(0.6); /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: all .5s ease-in-out;
+}
+/* grayscale hover from : http://stackoverflow.com/questions/7273927/image-greyscale-with-css-re-color-on-mouse-over */
+.logo1:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.15);
+    border-radius: 100%;
+}
+.logo2 {
+	width:5em;
+	border-radius: 100%;
+	border: 2px solid rgba(145,80,37,0.4);
+    filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+    filter: gray; /* IE5+ */
+    -webkit-filter: sepia(0.6); /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: all .5s ease-in-out;
+}
+.logo2:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.1);
+    border-radius: 100%;
+}
+.bouton { 
+	width:1.8em;
+}
+.experience table td{
+	vertical-align: top;
+}
+
+
+/* ---------------------------------------------*/
+/* ---------------EDUCATION PAGE----------------*/
+/* ---------------------------------------------*/
+
+.education {
+	background-image: url(images/pap2.png);
+	background-size: cover;
+	min-height: 100%;
+}
+.education table {
+	margin: auto;
+	padding: 2em;
+	border-spacing: 2em;
+}
+.right { 
+	text-align: right;
+}
+.education .logo1, .education .logo2 { 
+	width:7em;
+	border-color: rgba(145,80,37,0.4);
+}
+.education .text {	
+	font-size: 1.5em;
+	font-family: lobster;
+	color: rgba(11,12,55,0.7);
+	vertical-align: top;
+}
+.education .textl {
+	font-size: 1.5em;
+	font-family: lobster;
+	color: rgba(11,12,55,0.7);
+	text-align: right;
+}
+.education span {
+	font-size: 0.8em;
+}
+#colo1 {width:40%;}
+#colo2 {width:10%;}
+#colo3 {width:10%;}
+#colo4{width:40%;}
+
+.date {
+	font-weight: bold;
+	font-family: lobster;
+	color: rgba(49,49,49,0.7);
+}
+.education table td {
+ 	vertical-align: top;
+}
+
+/* ---------------------------------------------*/
+/* ---------------INTERESTS PAGE----------------*/
+/* ---------------------------------------------*/
+
+.interests { 
+	background-image: url(images/rugbyb.jpg);
+	background-size: cover;
+	min-height: 100%;
+	overflow: hidden;
+}
+.logoi { 
+	width: 9em;
+}
+.interests li { 
+	display: inline-block;
+	min-width: 7em;
+	padding: 7% 7%;
+}
+#koko{
+	text-align: center;
+	margin: -2% 10%;
+}
+.interests li p {
+	font-family: lobster;
+	font-size: 1.4em;
+}
+
+/* ---------------------------------------------*/
+/* ----------------CONTACT PAGE-----------------*/
+/* ---------------------------------------------*/
+
+.contact { 
+	background-image: url(images/food.png);
+	min-height: 100%;
+	overflow: hidden;
+}
+.contact ul {
+	padding:10%;
+}
+.contact li { 
+	display: inline-block;
+	padding: 5%;
+	font-family: lobster;
+	font-size: 1.4em;
+	opacity: 0.8;	
+}
+.logoc {
+	width: 5em;
+}
+
+.contact ul {
+	text-align: center;
+ }
+footer {
+	background-image: url(images/dark.png);
+	height:20%;
+	color: grey;
+	text-align: center;
+	padding: 1em 9em; 
+	overflow: hidden;
+	border-top: 0.2em solid white;
+}
+
+
+
+
+
+
+
+
+
